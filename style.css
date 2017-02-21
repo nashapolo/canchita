@@ -1,0 +1,211 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+/* ------------------------------------ */
+
+.navbar {
+	background-color: #225B22;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	text-align: center;
+	box-shadow: 0px 2px 12px #222;
+}
+
+.navbar h1 {
+	color: gold;
+	font-size: 1.25em;
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	padding: 0;
+	margin-top: 0.2em; 
+	margin-bottom: 0.2em;
+}
+
+.navbar li {
+	color: #fff;
+	display: inline-block;
+	font-size: 1em;
+	margin-left: 1.625em;
+	margin-right: 1.625em;
+}
+
+.navbar a:link, a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* ------------------------------------ */
+
+@keyframes fade {
+  0%   { opacity: 0; }
+  11.11%   { opacity: 1; }
+  33.33%  { opacity: 1; }
+  44.44%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.fadein {
+	position: relative;
+	max-width: 800px;
+	min-width: 400px;
+	height: 600px;
+	margin: auto;
+}
+
+.fadein img { 
+	width: 100%;
+    opacity:0; 
+    animation-name: fade; 
+    animation-duration: 9s; 
+    animation-iteration-count: infinite; 
+    position:absolute; 
+    left:0; 
+    right:0; 
+}
+
+.fadein img:nth-child(1) { animation-delay: 0s; }
+.fadein img:nth-child(2) { animation-delay: 3s; }
+.fadein img:nth-child(3) { animation-delay: 6s; }
+
+/* ------------------------------------ */
+
+.poland {
+	background-color: #ff5c33;
+}
+
+.polandtext {
+	color: #ff5c33;
+}
+
+
+/* ------------------------------------ */
+
+.content {
+	width: 100%;
+	text-align: center;
+	background-color: #181818;
+}
+
+.content img {
+	width: 100%
+}
+
+.bigname {
+	text-align: center;
+	font-size: 3em;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+}
+
+.title {
+	color: #999;
+	text-align: center;
+	font-size: 2.25em;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	padding-top: 1.75em;
+	padding-bottom: 1em;
+}
+
+.projects {
+	width: 100%;
+}
+
+.projects-list {
+	display: inline-block;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 50px;
+	width: 375px;
+}
+
+.projects-list img {
+	width: 375px;
+}
+
+.projects-list-names {
+	color: white;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.limits {
+	max-width: 800px;
+	min-width: 400px;
+	margin: auto;
+}
+
+.limits img {
+	width: 100%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.limits h3 {
+	font-size: 1.5em;
+	font-weight: 800;
+	padding-top: 1em;
+	padding-bottom: 0.75em;
+	letter-spacing: 0.1em;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.limits h4 {
+	font-size: 1.25em;
+	padding-top: 0.375em;
+	padding-bottom: 0.125em;
+	text-align: left;
+}
+
+.limits p {
+	padding-top: 0.25em;
+	padding-bottom: 0.125em;
+	text-align: left;
+}
+
+.dropshadow {
+	background-color: gold;
+	border-radius: 4px;
+	border-color: #999;
+	border-width: 1px;
+	padding: 1.5em;
+	box-shadow: 0px 2px 12px #222;
+	margin-top: .5em;
+	margin-bottom: 1em;
+}
+
+.button {
+	border-radius: 10px;
+	padding: 1.5em;
+	box-shadow: 0px 2px 12px #ccc;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.button h2 {
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 800;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.limits a:link, a:visited {
+	color: #fff;
+	text-decoration: none;
+}
